@@ -2,8 +2,19 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased - available on :latest tag for docker image]
+
+## [v0.0.3] - 2021-07-07
+### Added
+- TZ env varible support for scratch image
+
+### Changed
+- Update golang to 1.16.5
+- Migrate to go module
+
+## [v0.0.2] - 2020-03-21
 ### Added
 - PROXY_PORT env parameter for app
+- Multiarch support for docker images
 
 ### Changed
 ADd caarlos0/env lib for working with ENV variables
@@ -14,7 +25,7 @@ ADd caarlos0/env lib for working with ENV variables
 
 ### Changed
 - Golang vendoring
-- Change Dockerfile for multistage builds with final scratch image 
+- Change Dockerfile for multistage builds with final scratch image
 
 ### Removed
 - IDE files
